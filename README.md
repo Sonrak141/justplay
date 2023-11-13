@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# Just Play Frontend Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend app is right now deployed on a Vercel url:
+https://justplay-ecru.vercel.app/
 
-Currently, two official plugins are available:
+The app is connected to the api through http://localhost:3001. 
+ 
+You can find the Api repo on the following url:
+https://github.com/Sonrak141/justPlayApi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For the app to work, you must run the api repo on a local server.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Thanks for the consideration, and I will be happy to receive any feedback from you.
