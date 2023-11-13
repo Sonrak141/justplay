@@ -1,1 +1,1 @@
-export const Host: string = 'https://just-play-api.vercel.app'
+export const Host: string = 'http://localhost:3001'
